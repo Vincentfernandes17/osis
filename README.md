@@ -1,1 +1,1 @@
-Hello my name is Vincent Fernandes. In this project, i tried to make my personal portfolio. And in my opinion it still lacking some art aspect and some other aspect. Please leave your feedback so i can continue to grow. Thank you!
+Hello my name is Vincent Fernandes. In this project, i tried to make my a website for my school organization called OSIS/PPSK. And in my opinion it still lacks some art aspect and some other aspect. Please leave your feedback so i can continue to grow. Thank you!
