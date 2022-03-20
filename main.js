@@ -6,8 +6,19 @@ const myAlert = document.querySelector('.my-alert');
 const myAlert2 = document.querySelector('.my-alert2');
 var name1 = document.getElementById('name1');
 var myNav = document.getElementById('nav1');
-var empt = document.forms['Portofolio-Contact-Form-vincentf']['name'].value;
+// var empt = document.forms['Portofolio-Contact-Form-vincentf']['name'].value;
 const forms = document.querySelectorAll('.needs-validation');
+
+window.onscroll = function() {
+  'use strict';
+  if (document.documentElement.scrollTop >= 120) {
+    myNav.classList.add('bg-biru');
+    myNav.classList.remove('bg-transparent');
+  } else {
+    myNav.classList.add('bg-transparent');
+    myNav.classList.remove('bg-biru');
+  }
+};
 
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function() {
@@ -35,16 +46,6 @@ const forms = document.querySelectorAll('.needs-validation');
 //var bb = document.getElementsByName("email").value;
 //var cc = document.getElementsByName("pesan").value;
 
-window.onscroll = function() {
-  'use strict';
-  if (document.documentElement.scrollTop >= 120) {
-    myNav.classList.add('bg-putih');
-    myNav.classList.remove('bg-transparent');
-  } else {
-    myNav.classList.add('bg-transparent');
-    myNav.classList.remove('bg-putih');
-  }
-};
 
 let home = document.querySelector('#home');
 let about = document.querySelector('#About');
