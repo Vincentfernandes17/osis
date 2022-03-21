@@ -57,17 +57,17 @@ body {
 }
 
 .background {
-  background-image: url('img/bg-sekolah-1.jpg');
+  background-image: url('img/Foto_sekolah.png');
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: -10px;
   margin-right: -6px;
   margin-top: -18px;
+  margin-bottom: 68px;
   height: 650px;
   width: auto;
-  max-width: 10000000px;
+  max-width: 1234.5px;
   top: 0;
-  background-attachment: fixed;
 }
 
 .kaushan-script {
@@ -126,8 +126,10 @@ body {
 .background2 {
   margin-top: -69px;
   padding-top: 2px;
+  top: 0;
   height: auto;
   background-color: rgb(255, 255, 255);
+  max-width: 1234px;
 }
 
 #about-background {
@@ -373,6 +375,19 @@ body {
   }
   .custom-shape-divider-bottom-1647695322 .shape-fill {
     fill: #FFFFFF;
+  }
+  .background {
+    background-image: url('img/Foto_sekolah.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -10px;
+    margin-right: -6px;
+    margin-top: -18px;
+    margin-bottom: 0px;
+    height: 650px;
+    width: auto;
+    max-width: 10000000px;
+    top: 0;
   }
 }
 
