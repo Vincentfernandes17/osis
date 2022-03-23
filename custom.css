@@ -66,7 +66,7 @@ body {
   margin-bottom: 68px;
   height: 650px;
   width: auto;
-  max-width: 1234.5px;
+  max-width: 12345px;
   top: 0;
 }
 
@@ -129,7 +129,7 @@ body {
   top: 0;
   height: auto;
   background-color: rgb(255, 255, 255);
-  max-width: 1234.5px;
+  max-width: 12345px;
 }
 
 .trirong {
@@ -356,11 +356,26 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
+  .background {
+    background-image: url('img/Foto_sekolah.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -10px;
+    margin-right: -6px;
+    margin-top: -18px;
+    margin-bottom: 68px;
+    height: 650px;
+    width: auto;
+    max-width: 1234.5px;
+    top: 0;
+  }
   .background2 {
-    margin-top: -1px;
+    margin-top: -69px;
     padding-top: 2px;
+    top: 0;
     height: auto;
     background-color: rgb(255, 255, 255);
+    max-width: 1234.5px;
   }
   .custom-shape-divider-bottom-1647695322 {
     position: absolute;
