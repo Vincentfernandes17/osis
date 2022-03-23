@@ -48,40 +48,40 @@ window.onscroll = function() {
 
 
 let home = document.querySelector('#home');
-let about = document.querySelector('#About');
+let Profil = document.querySelector('#Profil');
 let resume = document.querySelector('#Portfolio');
 let project = document.querySelector('#Projects');
 let contact = document.querySelector('#Contact');
 
 window.addEventListener('scroll', () => {
   var windo = window.pageYOffset;
-  if (home.offsetTop - 800 <= windo && about.offsetTop - 100 > windo) {
+  if (home.offsetTop - 800 <= windo && Profil.offsetTop - 100 > windo) {
     document.querySelector('.home').setAttribute('id', 'active');
-    document.querySelector('.about').removeAttribute('id', 'active');
+    document.querySelector('.Profil').removeAttribute('id', 'active');
     document.querySelector('.resume').removeAttribute('id', 'active');
     document.querySelector('.project').removeAttribute('id', 'active');
     document.querySelector('.contact').removeAttribute('id', 'active');
-  } else if (about.offsetTop - 800 <= windo && resume.offsetTop - 500 > windo) {
+  } else if (Profil.offsetTop - 800 <= windo && resume.offsetTop - 500 > windo) {
     document.querySelector('.home').removeAttribute('id', 'active');
-    document.querySelector('.about').setAttribute('id', 'active');
+    document.querySelector('.Profil').setAttribute('id', 'active');
     document.querySelector('.resume').removeAttribute('id', 'active');
     document.querySelector('.project').removeAttribute('id', 'active');
     document.querySelector('.contact').removeAttribute('id', 'active');
   } else if (resume.offsetTop - 800 <= windo && project.offsetTop - 500 > windo) {
     document.querySelector('.home').removeAttribute('id', 'active');
-    document.querySelector('.about').removeAttribute('id', 'active');
+    document.querySelector('.Profil').removeAttribute('id', 'active');
     document.querySelector('.resume').setAttribute('id', 'active');
     document.querySelector('.project').removeAttribute('id', 'active');
     document.querySelector('.contact').removeAttribute('id', 'active');
   } else if (project.offsetTop - 800 <= windo && contact.offsetTop - 300 > windo) {
     document.querySelector('.home').removeAttribute('id', 'active');
-    document.querySelector('.about').removeAttribute('id', 'active');
+    document.querySelector('.Profil').removeAttribute('id', 'active');
     document.querySelector('.resume').removeAttribute('id', 'active');
     document.querySelector('.project').setAttribute('id', 'active');
     document.querySelector('.contact').removeAttribute('id', 'active');
   } else if (contact.offsetTop - 800 <= windo) {
     document.querySelector('.home').removeAttribute('id', 'active');
-    document.querySelector('.about').removeAttribute('id', 'active');
+    document.querySelector('.Profil').removeAttribute('id', 'active');
     document.querySelector('.resume').removeAttribute('id', 'active');
     document.querySelector('.project').removeAttribute('id', 'active');
     document.querySelector('.contact').setAttribute('id', 'active');

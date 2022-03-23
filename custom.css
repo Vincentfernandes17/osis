@@ -41,14 +41,14 @@ body {
   bottom: 0;
   left: 50%;
   width: 0%;
-  height: 2px;
-  background: rgb(0, 0, 0);
-  transition: 0.2s ease-out;
+  height: 1.4px;
+  background: rgb(255, 255, 255);
+  transition: 0.25s ease-out;
 }
 
 #nav1 a:hover {
-  text-shadow: -1px -1px 2 black;
-  color: #666666;
+  text-shadow: -2px -2px 10 rgb(0, 0, 0);
+  font-weight: 1000;
 }
 
 #nav1 a:hover:after {
@@ -129,11 +129,7 @@ body {
   top: 0;
   height: auto;
   background-color: rgb(255, 255, 255);
-  max-width: 1234px;
-}
-
-#about-background {
-  background-color: white;
+  max-width: 1234.5px;
 }
 
 .trirong {
@@ -320,6 +316,15 @@ body {
 }
 
 @media only screen and (max-width: 995px) {
+  #visi {
+    margin: 0px 20px;
+  }
+  #misi {
+    margin: 0px 20px;
+  }
+  #triprasetia {
+    margin: 0px 20px;
+  }
   #logo {
     margin-top: 10px;
   }
