@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 *,
 *:before,
 *:after {
@@ -53,6 +57,7 @@
 }
 
 .background {
+  overflow-x: hidden;
   background-image: url('img/Foto_sekolah.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,6 +68,12 @@
   width: auto;
   max-width: auto;
   top: 0;
+}
+
+.background-footer {
+  background: rgb(37, 77, 129);
+  margin-bottom: -20px;
+  overflow-x: hidden;
 }
 
 .kaushan-script {
@@ -119,6 +130,7 @@
 }
 
 .background2 {
+  overflow-x: hidden;
   margin-top: -69px;
   padding-top: 2px;
   top: 0;
