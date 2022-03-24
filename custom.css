@@ -70,6 +70,20 @@ body {
   top: 0;
 }
 
+.profil-background {
+  overflow-x: hidden;
+  background-image: url('img/Foto_sekolah.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: -15px;
+  margin-top: -18px;
+  margin-bottom: 68px;
+  height: 700px;
+  width: auto;
+  max-width: auto;
+  top: 0;
+}
+
 .background-footer {
   background: rgb(37, 77, 129);
   margin-bottom: -20px;
