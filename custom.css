@@ -5,11 +5,11 @@ body {
 }
 
 html::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 *::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 *,
@@ -93,7 +93,6 @@ html::-webkit-scrollbar {
   max-width: auto;
   top: 0;
 }
-
 
 .background-footer {
   background: rgb(37, 77, 129);
@@ -353,11 +352,46 @@ html::-webkit-scrollbar {
   }
 }
 
-@media only screen and (max-width: 995px) {
-  #misiOsis {
-  margin-right: 15px;
+.fancybox__caption {
+  padding: 1rem 4rem 0 4rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
+.item {
+  transition: 0.3s ease-in-out;
+}
+
+.item:hover {
+  filter: brightness(80%);
+}
+
+.kolaps {
+  width: clamp(120px, 80%, 620px);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(121deg, rgba(0, 0, 0, 1) 0%, rgba(39, 88, 152, 1) 100%);
+  font-weight: 500;
+}
+
+.kolapsIsi {
+  width: clamp(120px, 80%, 620px);
+  margin-top: -25px;
+}
+
+@media only screen and (max-width: 995px) {
+  .kolaps {
+    width: clamp(120px, 80%, 1020px);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(121deg, rgba(0, 0, 0, 1) 0%, rgba(39, 88, 152, 1) 100%);
+    font-weight: 500;
+  }
+  .kolapsIsi {
+    width: clamp(120px, 80%, 1020px);
+    margin-top: -25px;
+  }
+  #misiOsis {
+    margin-right: 15px;
+  }
   #visi {
     margin: 0px 20px;
   }
