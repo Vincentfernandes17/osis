@@ -375,7 +375,7 @@ html::-webkit-scrollbar {
 
 .kolapsIsi {
   width: clamp(120px, 80%, 620px);
-  margin-top: -25px;
+  margin-top: -20px;
 }
 
 @media only screen and (max-width: 995px) {
