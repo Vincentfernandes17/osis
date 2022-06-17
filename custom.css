@@ -287,6 +287,10 @@ html::-webkit-scrollbar {
   transition: 0.3s ease-in-out;
 }
 
+#carouselCard {
+  width: 800px;
+}
+
 .container .card:hover {
   height: 61vh;
 }
